@@ -1,14 +1,14 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
- * main - A program that will assign a random variable each time is executed 
+ * main - point of entry 
  * Return: Always 0 (readable)
  */
 
 int main(void)
 {
-
 	int n;
 
 	srand(time(0));
