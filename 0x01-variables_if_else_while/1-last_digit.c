@@ -4,7 +4,7 @@
 
 /**
  * main - Point of entry
- * Return 0 (readable)
+ * Return: Always 0 (readable)
  */
 int main(void)
 {
