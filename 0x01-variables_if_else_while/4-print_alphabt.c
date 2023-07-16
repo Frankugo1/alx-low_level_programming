@@ -3,14 +3,14 @@
  * main - Point of entry 
  * Return: Always 0 (readable)
  */
+
 int main(void)
 {
 
 	char c;
 
 	c = 'a';
-	while
-		(c <= 'z')
+	while(c <= 'z')
 	{
 		if ((c != 'q' && c != 'e') && c != 'z')
 			putchar(c);
@@ -18,16 +18,6 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-
-
-
-
-
-
-
-
-
-
 }
 
 
