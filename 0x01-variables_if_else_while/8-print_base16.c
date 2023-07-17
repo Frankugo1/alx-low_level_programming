@@ -6,11 +6,11 @@
 
 int main(void)
 {
-        char k;
+        char c;
 
 	int b;
 
-        k = 'a';
+        c = 'a';
 	b = 0;
         while
                 (b < 0) {
@@ -18,9 +18,9 @@ int main(void)
                         b++;
                 }
 	while
-		(k <= 'p') {
-			putchar(k);
-			k++;
+		(c <= 'f') {
+			putchar(c);
+			c++;
 		}
         putchar('\n');
         return (0);
